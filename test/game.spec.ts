@@ -1,7 +1,7 @@
-import { Board } from './models/board';
+import { Board } from '../src/models/board';
 
 require('jest');
-import { Game } from './game';
+import { Game } from '../src/game';
 
 describe('InFns', () => {
     let sampleGameData: Board;

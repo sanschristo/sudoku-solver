@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/sanschristo/sudoku-solver/issues"
   },
-  "homepage": "https://github.com/sanschristo/sudoku-solver#readme"
+  "homepage": "https://github.com/sanschristo/sudoku-solver#readme",
+  "files": [
+    "build/dist"
+  ]
 }
