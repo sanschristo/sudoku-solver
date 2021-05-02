@@ -1,6 +1,6 @@
 {
   "name": "@sanschristo/sudoku-solver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sudoku Solver",
   "main": "./build/dist/main.js",
   "types": "./build/dist/main.d.ts",
