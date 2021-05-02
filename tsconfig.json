@@ -12,7 +12,8 @@
     "emitDecoratorMetadata": true,
     "downlevelIteration": true,
     "esModuleInterop": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "declaration": true
   },
   "include": ["src/**/*.ts", "test/**/*.ts"]
 }
