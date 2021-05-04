@@ -6,9 +6,11 @@ export class Game {
     private startTime: number;
     private endTime: number;
     board: Board;
+    steps: Board[];
 
     constructor(board: Board) {
         this.board = board;
+        this.steps = [];
     }
 
     isInRow: CheckerFn = (row, guess) => {
@@ -85,6 +87,7 @@ export class Game {
             for (let guess = 1; guess <= 9; guess++) {
                 if (this.isPossible(y, x, guess)) {
                     this.board[y][x] = guess;
+                    this.steps.push(JSON.parse(JSON.stringify(this.board)));
                     this.solve();
                 }
             }
